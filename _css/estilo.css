@@ -1,0 +1,54 @@
+/*Trabalhando com o Background*/
+body
+{
+    background-color: #ccc;
+}
+
+/*Trabalhando com textos e suas areas*/
+a, #title, .subtitle, .posttitle, .postcontent
+{
+   color: rgb(32, 28, 28);
+   font-family: monospace, sans-serif; 
+   font-style: normal;
+}
+#title
+{
+    text-transform: uppercase;
+}
+
+.posttitle
+{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post
+{
+    background-color: #fff; 
+    padding: 10px;/*Recuo do do background*/
+    border: 3px solid black;/*Borda*/
+    border-radius: 10px;
+    margin: 10px;/*Recudo da borda*/
+}
+
+.postcontent
+{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+/*Trabalhando com as imagens*/
+
+.eu
+{
+    border: 1px solid #CCC;
+    border-radius: 10%;
+}
+
+/*Estilo do footer*/
+.contect
+{
+    list-style-type: none;
+}
